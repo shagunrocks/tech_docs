@@ -3,7 +3,7 @@ from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 
 gauth = GoogleAuth()
-# gauth.LocalWebserverAuth()
+gauth.LocalWebserverAuth()
 drive = GoogleDrive(gauth)
 
 folder = "1nz9YDxY3nh-Xw2TfqbOkoEbxP2brxj3-"
